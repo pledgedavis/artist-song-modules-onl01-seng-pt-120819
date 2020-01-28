@@ -11,7 +11,6 @@ include Memorable::InstanceMethods
   def initialize
     # @@songs << self
     self.class.all << self
-end
   end
 
   def self.find_by_name(name)
